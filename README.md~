@@ -28,4 +28,4 @@ ACM Transactions on Sensor Networks (TOSN), Volume 12 Issue 1, March 2016.
 that channel, it's calculated as the number of children of a node;
 - The algorithm doesn't work into two steps (Fat-tree construction then channel
 allocation). Instead, once a node is added to the fat-tree, it commands its
-children join it and request a channel from its parents;
+children join it and request a channel from its parents.
