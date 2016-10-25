@@ -29,3 +29,10 @@ that channel, it's calculated as the number of children of a node;
 - The algorithm doesn't work into two steps (Fat-tree construction then channel
 allocation). Instead, once a node is added to the fat-tree, it commands its
 children join it and request a channel from its parents;
+
+# Configuring
+Besides the Tmcp.config file required by the JSensor, one can set the fields:
+- Sink.NUM_OF_CHANNELS
+- Sensor.WORKING_NODES_PROPORTION
+- Sensor.RELATIVE_TIME
+- Sensor.MAX_NUM_OF_MESSAGES
